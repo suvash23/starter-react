@@ -7,6 +7,8 @@ class SearchBar extends React.Component {
     this.setState({ term: event.target.value });
   };
 
+  //search
+
   onFormSubmit = (event) => {
     event.preventDefault();
     //callback from paremt component
